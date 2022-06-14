@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background: url("evie-s-5aXgxbySO5o-unsplash.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 5rem;
+    margin-top: -12rem;
+    margin-bottom: 4rem;
+    font-weight: 100;
+}
+
+.countdown{
+    display: flex;
+    box-shadow:  -10px -10px 48px #989898,
+                 10px 10px 48px #ffffff;
+}
+
+.bigText{
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.countdown span{
+    font-size: 1.5rem;
+    width: 9rem;
+    text-align: center;
+}
+
+.countdown div{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
